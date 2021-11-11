@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="8.0" transformSequenceNumber="3">
+  <directoryPresets config="C:/Users/wei.lin/Desktop/Wei/ExeGen/Jre" />
+  <application name="Proj001" distributionSourceDir="C:/Users/wei.lin/Desktop/Wei/ExeGen/Output" />
+  <executable name="Projeto001" wrapperType="embed" iconSet="true" iconFile="C:/Users/wei.lin/Desktop/Wei/ExeGen/Img/toons_homer_simpson_homersimpson_2387.ico" executableMode="gui" />
+  <java mainClass="painelinfor.TelaMain" preferredVM="client" minVersion="1.5" maxVersion="16">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+      <directory location="../Jre/jdk-16.0.2" />
+      <directory location="../Jre/jre1.8.0_311" />
+    </searchSequence>
+    <classPath>
+      <archive location="C:/Users/wei.lin/Desktop/Wei/ExeGen/Jar/painelInfor.jar" failOnError="false" />
+      <archive location="C:/Users/wei.lin/Desktop/Wei/ExeGen/lib/itextpdf-5.4.0.jar" failOnError="false" />
+      <archive location="C:/Users/wei.lin/Desktop/Wei/ExeGen/lib/mysql-connector-java-8.0.25.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
